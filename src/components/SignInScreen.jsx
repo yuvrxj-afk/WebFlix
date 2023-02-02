@@ -14,7 +14,7 @@ function SignInScreen() {
         passwordRef.current.value
       )
       .then((authUser) => {
-        console.log(authUser);
+        // console.log(authUser);
       })
       .catch((error) => {
         alert(error.message);
@@ -29,7 +29,7 @@ function SignInScreen() {
         passwordRef.current.value
       )
       .then((authUser) => {
-        console.log(authUser);
+        // console.log(authUser);
       })
       .catch((error) => {
         console.log(error.message);
@@ -50,7 +50,7 @@ function SignInScreen() {
           </span> <span className="si__span">New to WebFlix ? </span>
         </h4>
        
-        <span className="si__span1">If new? Tap this not the above Sign Up Now!</span>
+        <span className="si__span1">If new? Tap the above Sign Up Now!</span>
       </form>
     </div>
   );

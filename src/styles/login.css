@@ -70,15 +70,16 @@
 .login__input > form > input{
     padding: 10px;
     outline-width: 0;
-    height: 26px;
+    height: 27px;
     width: 30%;
     border: none;
     max-width: 600px;
 }
 .login__start{
-    font-size: 1rem;
+    font-size: .9rem;
     padding: 14.5px 20px;
     border: none;
+    height: 47px;
     color: #fff;
     cursor: pointer;
     background-color: #ec1722;
